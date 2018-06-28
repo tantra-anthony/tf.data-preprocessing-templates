@@ -80,7 +80,7 @@ y = labelencoder_y.fit_transform(y)
 # training set is where the model is built upon
 # test set is where the model is tested for its accuracy
 # import the train_test_split lib from sklearn.cross_validation
-from sklearn.cross_validation import train_test_split
+from sklearn.model_selection import train_test_split
 
 # create all training and test for X and y
 # test_size is the percentage that goes to your test set
